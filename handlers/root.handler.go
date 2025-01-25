@@ -6,5 +6,5 @@ import (
 )
 
 func RootHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "This is a Simple HTTP Web Server Mario Root!")
+	fmt.Fprintln(w, "This is a Simple HTTP Web Server Mario Root!")
 }

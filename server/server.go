@@ -20,7 +20,7 @@ func newServer() *http.Server {
 
 	// Register handlers with the multiplexer
 	mux.HandleFunc("/", handlers.RootHandler)
-	mux.HandleFunc("/users", handlers.UsersHandler)
+	mux.HandleFunc("/user", handlers.UserHandler)
 
 	// Create and return the server
 	return &http.Server{
