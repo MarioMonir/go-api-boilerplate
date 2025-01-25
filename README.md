@@ -18,9 +18,12 @@ This repository demonstrates a basic Go web server with the following key featur
 ├── handlers/
 │ ├── root.go
 │ └── user.go
+│
 ├── server/
 │ └── server.go
-└── main.go
+│
+├── main.go
+│
 └── README.md
 ```
 
